@@ -119,7 +119,7 @@ function fadedEls(el, shift) {
 })(jQuery);
 
 function sendMail() {
-    var link = "mailto:info@colatris.com"
+    var link = "mailto:info@elbowgrease.me"
              + "?subject=Inquiry from " + escape(document.getElementById('name').value)  
              + "&body=" + escape(document.getElementById('message').value)
     ;
@@ -127,9 +127,9 @@ function sendMail() {
 }
 
 function sendMailEA() {
-    var link = "mailto:info@colatris.com"
-             + "?subject=Notify me when you ship the SDK!"
-             + "&body=Hey Colatris Team. I am looking to get my hands on the SDK ASAP. So hurry the hell up will ya?!"
+    var link = "mailto:info@elbowgrease.me"
+             + "?subject=I want some info!"
+             + "&body=Can you plese tell me more?"
     ;
     window.location.href = link;
 }
