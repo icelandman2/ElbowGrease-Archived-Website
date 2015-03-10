@@ -119,7 +119,7 @@ function fadedEls(el, shift) {
 })(jQuery);
 
 function sendMail() {
-    var link = "mailto:info@elbowgrease.me"
+    var link = "mailto:adam.strigenz@lakesideschool.org"
              + "?subject=Inquiry from " + escape(document.getElementById('name').value)  
              + "&body=" + escape(document.getElementById('message').value)
     ;
@@ -127,7 +127,7 @@ function sendMail() {
 }
 
 function sendMailEA() {
-    var link = "mailto:info@elbowgrease.me"
+    var link = "mailto:adam.strigenz@lakesideschool.org"
              + "?subject=I want some info!"
              + "&body=Can you plese tell me more?"
     ;
